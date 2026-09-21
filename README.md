@@ -1,1 +1,5 @@
-# Patient-Survival-Deep-Learning-Model
+Conducted an experimental study to investigate the performances of FFN models that uses Binary Cross Entropy (BCE) loss with sigmoid activation function, FFN model that uses Categorical Cross Entropy (CCE) loss with a softmax activation function, and Logistic Regression on Patient Survival Prediction. The dataset used in this project contains 299 records. The following variables were controlled to ensure fairness: test/train records, standardisation technique, hidden-layer architecture, hyperparameter tuning method, cross validation strategy, random seeds, early stopping approach, evaluation metric. The only differences are the loss and activation functions.
+Developed and evaluated 2 deep-learning models and one conventional model to predict patient survival outcomes from clinical data. 
+Performed data quality assessment, stratified train-test splitting and feature standardisation, and established a DummyClassifier baseline for performance benchmarking. 
+Built a configurable Feed-Forward Neural Network using TensorFlow/Keras and optimised its architecture and training parameters using SciKeras and RandomizedSearchCV with cross-validation. 
+Evaluated performance using accuracy, precision, recall, F1-score, ROC-AUC and confusion matrix analysis. 
